@@ -1,0 +1,36 @@
+@media (max-width: 75em) {
+  html {
+    font-size: 60%
+  }
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(80deg, #FF5733 23%, #2C88D4 90%);
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 5px 0 rgb(0 0 0 / 20%);
+  z-index: 10;
+}
+
